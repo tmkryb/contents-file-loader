@@ -3,7 +3,6 @@
     <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
 </div>
-# contents-file-loader
 
 A very simple file loader module for webpack, that returns file contents
 
@@ -23,7 +22,7 @@ Import (or `require`) the target file(s) in one of the bundle's files:
 
 ```js
 // bundle file
-import img from './file.json'
+import config from './file.json'
 ```
 
 Then add the loader to your `webpack` config. For example:
