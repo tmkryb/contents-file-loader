@@ -1,0 +1,11 @@
+{
+  "name": "contents-file-loader",
+  "version": "0.0.1",
+  "description": "a webpack loader for emmiting file to dist directory, and returning it's contents on import.",
+  "main": "index.js",  
+  "dependencies": {
+    "sync-request": "6.0.0"
+  },
+  "author": "tmkryb",
+  "license": "MIT"
+}
