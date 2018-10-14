@@ -6,6 +6,14 @@
 
 A very simple file loader module for webpack, that returns file contents
 
+At this moment, loader supports only files with json content, for example:
+
+```json
+{
+  "hello": "Hello world!"
+}
+```
+
 ## Requirements
 
 This module was tested with webpack 4.2.0 and higher
