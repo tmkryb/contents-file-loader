@@ -6,6 +6,8 @@
 
 A very simple file loader module for webpack, that returns file contents
 
+[![npm version](https://badge.fury.io/js/contents-file-loader.svg)](https://badge.fury.io/js/contents-file-loader.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 At this moment, loader supports only files with json content, for example:
 
 ```json
