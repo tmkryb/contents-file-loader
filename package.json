@@ -1,12 +1,12 @@
 {
   "name": "contents-file-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/tmkryb/contents-file-loader.git"
+    "type": "git",
+    "url": "https://github.com/tmkryb/contents-file-loader.git"
   },
   "description": "a webpack loader for emmiting file to dist directory, and returning it's contents on import.",
-  "main": "index.js",  
+  "main": "index.js",
   "dependencies": {
     "sync-request": "6.0.0"
   },

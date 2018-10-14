@@ -1,7 +1,14 @@
 const loaderUtils = require("loader-utils");
 
 module.exports = function(content) {
-  const url = loaderUtils.interpolateName(this, "[name].[ext]", {
+  
+  const options = loaderUtils.getOptions(this) || {};
+
+  if(!options.name){
+    options.name = "[name]_[hash].[ext]"
+  }
+  
+  const url = loaderUtils.interpolateName(this, options.name, {
     content,
   });
 

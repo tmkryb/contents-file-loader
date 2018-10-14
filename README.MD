@@ -46,6 +46,29 @@ module.exports = {
 }
 ```
 
+You could also specify the name of emitted file:
+```js
+// webpack.config.js
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.json$/, 
+        type: 'javascript/auto',               
+          use: [
+           {         
+            loader: "contents-file-loader",
+            options: {
+               name: "[hash].[ext]"
+             }                        
+           }                   
+        ]
+      }
+    ]
+  }
+}
+```
+
 And run `webpack` via your preferred method. This will emit `file.json` as a file
 in the output directory and returns contents of the file.
 
